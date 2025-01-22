@@ -1,0 +1,145 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F1F1F1; /* Light background for clean look */
+    color: #333; /* Default text color */
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center; /* Align all text to the center */
+}
+
+/* Header Styling */
+header {
+    background-color: #FA8072; /* Salmon color */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00CED1; /* Dark Turquoise on hover */
+}
+
+/* Main Section Styling */
+main {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading and Paragraph Styling in Main */
+main h2 {
+    font-size: 2.2em;
+    color: #191970; /* Midnight Blue */
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 1.2em;
+    color: #444;
+    line-height: 1.8;
+    text-align: center; /* Center align text */
+}
+
+.first-paragraph {
+    font-size: 1.3em;
+    color: #191970; /* Midnight Blue */
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center; /* Center align text */
+}
+
+/* Link Styling for Contributor Names */
+main nav ul {
+    margin-top: 15px;
+}
+
+main nav ul li a {
+    font-size: 1.1em;
+    color: #1E90FF; /* Dodger Blue */
+    text-decoration: none;
+}
+
+main nav ul li a:hover {
+    color: #00CED1; /* Dark Turquoise */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #191970; /* Midnight Blue */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+footer p {
+    font-size: 1.1em;
+}
+
+.second-paragraph {
+    font-weight: 600;
+}
+
+.third-paragraph {
+    font-size: 0.9em;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main h2 {
+        font-size: 1.8em;
+    }
+
+    main p {
+        font-size: 1em;
+    }
+
+    footer p {
+        font-size: 1em;
+    }
+}
+
